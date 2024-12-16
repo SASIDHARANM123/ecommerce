@@ -1,0 +1,242 @@
+.button {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #FF6B82;
+    background: #FF6B82;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.52px;
+    color: #FFFFFF;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+.button:hover {
+    background: #D14A6E;
+    border-color: #D14A6E;
+}
+
+.offer {
+    padding: 1px 4px;
+    background: #FF6B82;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: center;
+    border-radius: 1px;
+    border: 1px solid #FF6B82;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.offer-price {
+    font-size: 14.46px;
+    font-weight: 500;
+    line-height: 17.5px;
+}
+
+.original-price {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.1px;
+    opacity: 0.3;
+    text-decoration: line-through;
+}
+
+.purchase-list-container {
+    max-width: 462px;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.size-and-colour-container {
+    display: flex;
+    flex-direction: column;
+    gap: 7.23px;
+    padding-left: 28px;
+}
+
+.size-and-colour-header {
+    display: flex;
+    gap: 7.23px;
+    align-items: center;
+}
+
+.size-and-colour-label {
+    font-size: 9.94px;
+    font-weight: 400;
+    line-height: 12.03px;
+}
+
+.size-and-colour-option-container {
+    display: flex;
+    gap: 7.23px;
+    align-items: center;
+}
+
+.size-index {
+    font-size: 9.94px;
+    font-weight: 400;
+    line-height: 10.943px;
+}
+
+.select-input {
+    height: 25.31px;
+    border-radius: 1.81px;
+    border: 0.9px solid #D9D9D9;
+    background: white;
+}
+
+.total-price-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.free-delivery {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    color: #FF6B82;
+}
+
+.total-value {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+}
+
+.total-amount {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+}
+
+.total-with-button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.powered-by-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    opacity: 0.4;
+}
+
+.unit-text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.unit-contain {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.unit-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 22px;
+    position: relative;
+}
+
+.unit-container-active {
+    border: 2px solid #FF6B82;
+    background: #ffe6ff;
+}
+
+.unit-container-inactive {
+    border: 1px solid #C8C8C8;
+    background: white;
+}
+
+.popular-label {
+    position: absolute;
+    top: -10px;
+    right: 5px;
+    background-color: #FF6B82;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.52px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.radio-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.unit-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.unit-header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.price-type {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.5px;
+}
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.separator {
+    flex: 1;
+    border: 0;
+    height: 1px;
+    background-color: #C8C8C8;
+}
+
+.welcome-text {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FF6B82;
+    white-space: nowrap;
+}

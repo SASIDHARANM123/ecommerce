@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
+    "eval": "^0.1.8",
     "git": "^0.1.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
